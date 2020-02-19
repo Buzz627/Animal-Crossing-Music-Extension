@@ -1,118 +1,89 @@
-![alt tag](http://i.imgur.com/gluCMY7.png)
+![Project Banner](docs/banner.png)
 
-# Animal Crossing Music
+# Animal Crossing Music 🍀
+ 
+**Animal Crossing Music** is a fun Chrome extension for playing Animal Crossing's music in the browser, while you work, play or browse the web! ✨
 
-Animal Crossing Music is a a fun Chrome extension for playing Animal Crossing's
-music in the browser, while you work, play or browse the web! ✨
+The music updates in real-time on the hour, and informs you via an optional desktop notification and customizable town tune! 🌱
 
-The music updates in real-time on the hour, and informs you via an optional
-desktop notification and customizable town tune! 🌱
 
-## Development
+## Features
+### Hourly Music 🕒
+Listen to the corresponding hourly music from the main Animal Crossing titles:
+  - Animal Crossing
+  - Wild World / City Folk
+  - New Leaf
 
-### Change of Hands
+'Raining' and 'snowing' variants are also included!
 
-[JdotCarver](https://github.com/jdotcarver) has loved this project from the very
-start, but feels he has held onto it for too long. He's had the purest
-intentions and has always been a fan, but with different time commitments, he
-doesn't want this project to turn bad. With Animal Crossing coming out on Switch
-and people gaining interest again, there's hopes the project could be revived
-and more good things could come out of this.
+### Live Weather 🌧
+You can enable the "Live Weather" function so weather variants of the hourly music can be automatically picked according to the weather in your specified location!
 
-If you are a true fan and want to share your passion for Animal Crossing with
-our fellow villagers, please create an
-[issue](https://github.com/animal-crossing-music-extension/Animal-Crossing-Music-Extension/issues/new)
-and we can discuss.
+### K.K. Slider 🎙
+Listen to K.K. Slider's songs! The extension features both 'live' and 'aircheck' version of his tunes.
 
-Here's hoping we find the new mayor that'll give this town the bright future it
-deserves. 🌸
+You can choose whether to keep his appearances to the usual Saturday nights, or to play his songs 24/7.
 
-### Achieved
+### Town Tune 🎵
+The extension features an awesome Town Tune editor available within the browser.
 
-- [x] Updated all New Leaf loops with original files, (1PM is still unfinished),
+With it you can compose your custom Town Tune, which will be played every time an hour passes, just like the games!
 
-- [x] K.K. Slider now plays either from 8pm to 12am, all the time or never,
 
-- [x] Added Changelog,
+## Installation
 
-- [x] Settings now auto-save,
+### Chrome Web Store (Stable Version)
+Simply head over to the [extension's page on the Chrome Web Store](https://chrome.google.com/webstore/detail/animal-crossing-music/fcedlaimpcfgpnfdgjbmmfibkklpioop) to download the latest stable version of the extension.
 
-- [x] Added New Leaf Rainy-Day option and created all the loops,
+### Source Code (Development Version)
+You can download the source code of the project and install the unpacked extension yourself to access the latest, greatest and probably buggy unreleased features and updates. Just click on the `Clone or download` button at the top-right of the page and then on `Download Zip`.
 
-- [x] Created a customizable Town chime on each hour,
+To install the downloaded project, do the following:
+1. Unzip the downloaded file
+2. Go to the [Chrome Extensions Page](chrome://extensions/), which can be found under `Chrome > Settings > Extensions` 
+3. Enable the `Developer Mode` switch
+4. Click on `Load Unpacked`
+5. Choose the unzipped project directory
+6. Profit!
 
-- [x] Added the PAL equivalent of City Folk to the title for less confusion,
-  (Credit: Google user
-  [e4iojk](https://chrome.google.com/webstore/detail/animal-crossing-music/fcedlaimpcfgpnfdgjbmmfibkklpioop/reviews))
+### Resources
+The `4.0` version of the extension introduces a long-needed change: music is now played remotely! 🎉
 
-- [x] Fade-in and fade-out audio before switching tracks, (Credit: Google User
-  [Nathan
-  Moris](https://chrome.google.com/webstore/detail/animal-crossing-music/fcedlaimpcfgpnfdgjbmmfibkklpioop/)
-  )
+The extension no longer contains music files, and the source code does not depend on resources hosted elsewhere.
 
-### Improvements
+Thanks to this change, the size of the extension has shrunk from `436MB` to less than `3MB`. That's over a 99% decrease in size!
 
-- [ ] Certain music on special days of events (Hallowe'en, Guy Fawkes, Christmas,
-   etc),
-- [ ] Enable the user to either choose Live K.K. songs or Aircheck songs [Check
-   Issue](https://github.com/JdotCarver/Animal-Crossing-Music-Extension/issues/4)
-- [ ] Improve the Download size, this extension is already big and isn't going to
-   get smaller.
-- [ ] Add sound tones to the town tune previsualizer to more closely ressemble the
-   one in the original game
-- [ ] <s>Dynamic Music according to local weather</s> [Check
-   Issue](https://github.com/JdotCarver/Animal-Crossing-Music-Extension/issues/5)
-- [ ] Add an option for ambient sounds while the music is playing
-  - _20% to 30% of the current volume would be pretty sweet, a separate volume
-     slider would be even better. Create an issue as there are background tasks
-     to resolve first._
-- [ ] Alternate icon(s) in browser,
-  - _Create an issue for the files to be prepped._
-- [ ] Redo New Leaf Snow loops,
-  - _Create an issue as there are background tasks to fix first._
+Downloading the music files and including them into the project directory **is no longer needed** in order to install/use the extension. 
 
-- [ ] Actually adding City Folk Rainy and Snowy Tracks! (**Credit**: Google user
-    [Logan
-    Sackchum](https://chrome.google.com/webstore/detail/animal-crossing-music/fcedlaimpcfgpnfdgjbmmfibkklpioop/reviews))
+You can still find the used music resources in the following link:
+- Google Drive: [Animal Crossing Music](https://drive.google.com/open?id=1QjG8QjPt_IKgzZRzmnoH8KTGwTsWSLsR)
 
-- [ ] A Mix All option that picks a track from all of the different games
-    (**Credit**: Google user [Altaria
-    Nintendo](https://chrome.google.com/webstore/detail/animal-crossing-music/fcedlaimpcfgpnfdgjbmmfibkklpioop/reviews))
+### Branch conventions
+- The `master` branch contains the latest published version of the extension. This is the stable branch.
+- The `develop` branch contains the latest fully-integrated features of the extension. This is where PRs should be merged into. 
 
-- [ ] Up the max volume (**Credit**: Google user [Maxine
-    Manasan](https://chrome.google.com/webstore/detail/animal-crossing-music/fcedlaimpcfgpnfdgjbmmfibkklpioop/reviews))
-- [ ] Hire an artist for UI design? _Just thinking about it, would be a nice
-    addition to colorize the interface a bit._
-- [ ] Firefox and Opera Compatibility _Preferably when the extension is close to
-    finalized_ (**Credit**: Google users [Yugo Selatrop, Comand
-    Reu](https://chrome.google.com/webstore/detail/animal-crossing-music/fcedlaimpcfgpnfdgjbmmfibkklpioop/reviews))
 
-## Resources
+## Help & Support
+If you have any questions or doubts, feel free to jump into the project's [Discord Server](https://discord.gg/4FMrEF8).
 
-- [Google Drive Music
-  Folder](https://drive.google.com/open?id=0B79uF1ZqAHtbN0l4eFR1NU9CMGc)
 
-## Download
+## Contribute
+Contributions to the project are **greatly** appreciated! Here is how you can help to make this project even better:
 
-- [Chrome
-  Webstore](https://chrome.google.com/webstore/detail/animal-crossing-music/fcedlaimpcfgpnfdgjbmmfibkklpioop)
+### Issues
+If you want to report a bug, or have a feature request/proposal for improvement, feel free to open a public [issue](https://github.com/animal-crossing-music-extension/ac-music-extension/issues) on the project repository.
 
-## Contact
+### PR Submission
+[Pull Requests](https://github.com/animal-crossing-music-extension/ac-music-extension/pulls) are equally welcomed. Just make sure to submit them to `develop` and give some love to the PR description!
 
-For any specific questions or just to get organized on the project, feel free to
-hit me up at
-[AnimalCrossingMusicExtension@gmail.com](mailto:AnimalCrossingMusicExtension@gmail.com?Subject=Hello)
-or create an
-[issue](https://github.com/animal-crossing-music-extension/Animal-Crossing-Music-Extension/issues/new)
-on the project.
 
-## Original Version
+## Credit
+All of the contributors for versions post-3.0 can be found [listed here](https://github.com/animal-crossing-music-extension/Animal-Crossing-Music-Extension/graphs/contributors).
 
-The
-[version](https://chrome.google.com/webstore/detail/ldjcaihhhmemeidcfbcadilcmfdaikkg)
-of the original creator that has stoppped supporting the extension, and is now
-no longer on the Chrome web store.
+Credit is due to [Andrex](https://www.neogaf.com/members/andrex.20593/) and [blazescorch2](https://www.neogaf.com/members/blazescorch2.142800/) from NeoGAF for developing the original 1.0 and 2.0 versions of the extension.
 
-## License
+Original concept of the extension taken from [tane.us](http://tane.us/ac/)
 
-Licensed under a zlib license, see license.txt.
+
+## Licensing
+Animal Crossing Music is licensed under the zlib license. See [LICENSE.md](./LICENSE.md) for reference.
